@@ -42,3 +42,24 @@ utils.py
 
 
 
+## Models 
+
+- DeepLabv3+ plus with Resnext50_32x4d / Resnext101_32x4d
+- FPN plus with EfficientNetB4 / EfficientNetB5
+
+
+
+## Loss
+
+- CrossEntropyLoss with Label Smoothing 
+
+![](https://github.com/choco9966/Semantic-Segmentation-of-Recycled-Items/blob/main/image/val_loss.PNG?raw=true)
+
+
+
+## Metrics 
+
+- mean IoU
+
+![](https://github.com/choco9966/Semantic-Segmentation-of-Recycled-Items/blob/main/image/val_miou.PNG?raw=true)
+
